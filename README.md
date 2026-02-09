@@ -1,15 +1,15 @@
 # Deepfake Recognition & Face Analysis
 
-Progetto dedicato allo sviluppo di sistemi per il rilevamento di Deepfake, realizzato presso la **Universidad Autónoma de Madrid (UAM)**.
+Research project focused on developing robust systems for Deepfake detection, conducted at **Universidad Autónoma de Madrid (UAM)**.
 
-## 🚀 Panoramica
-Il progetto analizza la capacità di generalizzazione dei modelli di visione artificiale nel distinguere volti reali da quelli sintetici, affrontando il problema del dataset bias.
+## 🚀 Overview
+The project explores the generalization capabilities of computer vision models in distinguishing real faces from synthetic ones, specifically addressing the challenge of cross-database bias.
 
-## 🛠 Caratteristiche Tecniche
-* **Modelli**: Implementazione basata su **ResNet-50** e feature extraction tramite **dlib**.
-* **Analisi Intra-database**: Raggiunto un **AUC di 0.98** sul dataset UADFV.
-* **Generalizzazione**: Studio critico delle performance cross-database sul dataset Celeb-DF.
+## 🛠 Technical Highlights
+* **Models**: Implementation based on **ResNet-50** architecture and feature extraction using **dlib**.
+* **Intra-database Analysis**: Achieved a **0.98 AUC** on the UADFV dataset.
+* **Generalization**: Critical study of performance drops in cross-database scenarios (e.g., testing on Celeb-DF).
 
-## 📊 Documentazione Completa
-Per l'analisi dettagliata della metodologia, dei grafici di performance e delle conclusioni scientifiche, consultare il report integrale:
+## 📊 Full Report
+For a comprehensive analysis of the methodology, performance metrics, and scientific conclusions, please refer to the complete report:
 👉 **[Biometria_Face_Rec.pdf](./Biometria_Face_Rec.pdf)**
